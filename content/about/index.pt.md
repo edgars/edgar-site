@@ -54,5 +54,5 @@ Atualmente moro em Belo-Horizonte, a cidade da minha esposa, e onde nasceram meu
 
 ## Jiu-Jitsu
 
-O esporte que forjou meu caráter e minha força de vontade, principalmente ao aprender que tem que dias que a gente ganha, outros que a gente perde, que a vida aperta a gente, mas a gente sempre pode surpreender e reagir. 
+O esporte que forjou meu caráter e minha força de vontade, principalmente ao aprender que tem que dias que a gente ganha, outros que a gente perde, que a vida aperta a gente, mas a gente sempre pode surpreender e reagir. Sou um faixa-preta, ou o faixa-branca que nunca desistiu. 
 
