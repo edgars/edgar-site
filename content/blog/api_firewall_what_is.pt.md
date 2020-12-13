@@ -1,5 +1,5 @@
 +++
-title = "API Firewalls: Para que servem, onde vivem, o que comem? :smiley:"
+title = "API Firewalls: Para que servem, onde vivem, o que comem? "
 description = "Este post apresenta um pouco sobre o conceitos de API Firewall, e como é possível proteger de forma efetiva suas APIs"
 author = "Edgar Silva"
 date = "2020-12-11"
@@ -18,7 +18,7 @@ categories = ["api-firewall", ]
   stretch = "horizontal"
 +++
 
-A transformação digital trouxe mais agilidade e novas experiências, e uma das maneiras de se obter isto foram através das APIs.
+A transformação digital trouxe mais agilidade e novas experiências, e uma das maneiras de se obter isto foram através das APIs. :smiley:
 
 Com APIs, é possível alcançar inúmeros canais, que geram negócios em diferentes indústrias e beneficiam um número considerável de pessoas e empresas em todo o mundo. Como toda a inovação, vários benefícios são obtidos, porém sempre existem os efeitos colaterais, e isso se observou em todas as revoluções industriais que passamos.
 
