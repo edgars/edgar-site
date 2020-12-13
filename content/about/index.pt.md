@@ -15,7 +15,12 @@ Reativando meu site pessoal, perdi muito conteúdo de um site que tinha desde 20
 
 Atuo no mercado de tecnologia desde 1997, onde comecei a entregar diversos projetos como autonômo para empresas de pequeno e médio porte, não vou contar o tempo de instrutor da antiga Datacontrol e outras escolas de informática em Belém, se não vamos para 1996 :) . 
 
-![Quem lembra? ](https://i.ytimg.com/vi/XF0_QzC0yak/hqdefault.jpg)
+
+
+| ![Quem lembra? ](https://memoriasdoesporteoficial.com.br/wp-content/uploads/2019/11/f-5-500x500.jpg) |  ![enter image description here](https://d1o6h00a1h5k7q.cloudfront.net/imagens/img_m/8602/3718468_1.jpg)|
+|--|--|
+|  |  |
+
 
 
 Graças ao meu Bom Deus, tive a oportunidade de trabalhar em empresas super legais. Passei por desafios, que alguns no início eu duvidei que conseguiria superá-los, mas sempre acreditei em Deus e que eu sempre faria meu melhor, deu certo na grande maioria da vezes.
