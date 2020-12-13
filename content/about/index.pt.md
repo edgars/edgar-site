@@ -6,15 +6,17 @@ date = "2020-12-13"
 layout = "about"
 +++
 
-Reativando meu site pessoal, perdi muito conteúdo de um site que tinha desde 2004, queria ter mais disciplina e organização como alguns amigos tem, então vamos ver se este site agora feito em Hugo, mais ágil para atualizar possa ficar no ar para mais tempo.
+Reativando meu site pessoal, perdi muito conteúdo de um site que tinha desde 2004, queria ter mais disciplina e organização como alguns amigos tem, então vamos ver se este site agora feito em Hugo, mais ágil para atualizar possa ficar no ar para mais tempo. Minhas 
+únicas lembranças são os crawlers do Wayback machine :) 
 
 
 ## Tecnologia
-  
+   
 
-Eu trabalho com tecnologia, estudei aquele antigo curso de Processamento de Dadados e desde 1997 que atuo na área de tecnologia, onde tem inúmeras histórias super engraçadas.
+Atuo no mercado de tecnologia desde 1997, onde comecei a entregar diversos projetos como autonômo para empresas de pequeno e médio porte, não vou contar o tempo de instrutor da antiga Datacontrol e outras escolas de informática em Belém, se não vamos para 1996 :) . 
 
-  
+![Quem lembra? ](https://i.ytimg.com/vi/XF0_QzC0yak/hqdefault.jpg)
+
 
 Graças ao meu Bom Deus, tive a oportunidade de trabalhar em empresas super legais. Passei por desafios, que alguns no início eu duvidei que conseguiria superá-los, mas sempre acreditei em Deus e que eu sempre faria meu melhor, deu certo na grande maioria da vezes.
 
@@ -22,8 +24,7 @@ Graças ao meu Bom Deus, tive a oportunidade de trabalhar em empresas super lega
 
 Passei pelas seguintes empresas em pouco mais de 20 anos:
 
-  
-
+ 
 * Borland
 
 * Sun Microsystems
@@ -47,12 +48,4 @@ Em 2018, eu estruturei a minha segunda empresa, que começou a operar em 2019. E
   
 
 Atualmente trabalho para uma Startup focada em segurança de APIs: [42Crunch.](https://www.42crunch.com)
-
-## Família
-
-Atualmente moro em Belo-Horizonte, a cidade da minha esposa, e onde nasceram meus filhos, minha princesa, e meu moleque. 
-
-## Jiu-Jitsu
-
-O esporte que forjou meu caráter e minha força de vontade, principalmente ao aprender que tem que dias que a gente ganha, outros que a gente perde, que a vida aperta a gente, mas a gente sempre pode surpreender e reagir. Sou um faixa-preta, ou o faixa-branca que nunca desistiu. 
 
