@@ -1,6 +1,6 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
-baseurl                 = "http://localhost:1313/"
+baseurl                 = "https://edgar-site-wgrfm.ondigitalocean.app/"
 DefaultContentLanguage  = "pt"
 title                   = "Edgar Silva"
 theme                   = "hugo-future-imperfect-slim"

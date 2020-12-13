@@ -1,6 +1,6 @@
 +++
 title = "Sobre"
-description = "Site pessoal : Edgar Silva"
+description = "Blog e Site pessoal ... vamo que vamo"
 author = "Edgar Silva"
 date = "2020-12-13"
 layout = "about"
