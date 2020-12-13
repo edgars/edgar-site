@@ -1,5 +1,5 @@
 +++
-title = "API Firewalls: Para que servem, onde vivem, o que comem?"
+title = "API Firewalls: Para que servem, onde vivem, o que comem? :smiley:"
 description = "Este post apresenta um pouco sobre o conceitos de API Firewall, e como é possível proteger de forma efetiva suas APIs"
 author = "Edgar Silva"
 date = "2020-12-11"
@@ -10,11 +10,11 @@ categories = ["api-firewall", ]
   alt = "API Firewalls"
   stretch = "vertical"
 [[images]]
-  src = "img/2019/03/pic02.jpg"
-  alt = "Desert Scene"
+  src = "img/apifirewall.png"
+  alt = "API Firewalls"
 [[images]]
-  src = "img/2019/03/pic03.jpg"
-  alt = "Valley"
+  src = "img/apifirewall.png"
+  alt = "API Firewalls"
   stretch = "horizontal"
 +++
 
