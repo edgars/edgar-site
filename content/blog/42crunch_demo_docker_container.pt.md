@@ -17,8 +17,6 @@ categories = ["api-firewall", ]
   alt = "API Firewalls"
   stretch = "horizontal"
 +++
-
-
 ## Introduction
 
 In this demonstration I will show how to protect basic Microsevices using ***Micro-APIFirewall***. In our case, we have a basic **SpringBoot** app that is fully audited, scanned and protected by [42Crunch platform](https://42crunch.com).
@@ -67,7 +65,7 @@ Companies from anywhere in the world can introduce security best-practices in th
 
 ![enter image description here](https://github.com/edgars/docker-42c-apifirewall/raw/main/images/flow-with-42crunch.png)
 
-## Step 1: Focusing on API Firewall
+## Focusing on API Firewall
 In this demo we will focus on the **API Firewall** (Guardian). The first thing we have to do is to go in the 42Crunch platform, and configure the [API Firewall to some specific(s) API(s)](https://42crunch.com/micro-api-firewall-protection), when we do that, we can get a token in order to connect the on-premises Micro API Firewall to the 42Crunch platform running on cloud. You have to the 42Crunch Console's left main menu in the option **Protect**, a Popup will show up, and you will have to select the API from an existing collection that you want to protect. Here a basic demonstration if you have a collection ready to be protected by the API Firewall *(keep in mind that just APIs with a score of more than 70 can be protected by the API Firewall).*
 
   
@@ -84,7 +82,7 @@ As you noticed, you configuration had generated a token, we will must use this l
 
   
 
-## Step 2: The Dockerfile
+## The Dockerfile
 
 We will extend the 42Crunch's default image in order to pass the certificate files as you can see in the following code listing:
 
@@ -120,7 +118,7 @@ The API Firewall will protect a simple SpringBoot service that is deployed into 
 
 *`Tip: awk '{printf("% 4d %s\n", NR, $0)}' Dockerfile (for printing line numbers)`*
 
-## Step 3: Running the Firewall 
+## Running the API Firewall (Guardian)
 
 Let's execute the API Firewall running first the 
 
@@ -138,7 +136,39 @@ Tracing the request in 42Crunch Dashboard:
 ![enter image description here](https://github.com/edgars/docker-42c-apifirewall/blob/main/images/Firewall_running_dashboard.png?raw=true)
 
   
+## Certificates 
 
+Anything related to certificates sometimes requires some good attention, this demo is not an exception. However, there is a utility that will help you a lot, it is here on this poc/demo respository: https://github.com/edgars/docker-42c-apifirewall/blob/main/cert-2/idca . In order to make this demonstration to work, I had to add some entries into my /etc/hosts/, where I added the following line:
+
+    #42Crunch Docker sample
+    127.0.0.1 myapis.docker.local
+
+The configuration above allows to refer my localhost/127.0.0.1 as a `'fake'` fully qualified domain (FDQN).
+
+Then I used the simple openssl command line as it follows : 
+
+    openssl req \
+        -newkey rsa:2048 -nodes -keyout firewall-key.pem \
+        -x509 -days 30 -out firewall-cert.pem
+Don't forget to add the information about *FQDN* during the command line questions. 
+
+The generated files shall be used in the `env.list` file, once those certifiacte's information is used by the API Firewall instance. 
+
+You can use also the idca , an utility provided by 42Crunch here: https://github.com/42Crunch/resources/blob/44f01abb7299775d5bb47be1182c5d5e30fd5984/firewall-deployment/tools/idca , please, just download and type the following command:
+
+    ./idca myapis.docker.local 
+
+The command above, will generate your certificates.
+
+```mermaid
+graph LR
+A[idca] -- generates --> B((Circle))
+A --generates --> C(Round Rect)
+B --> D{api firewall}
+C --> D
+```
+
+You can get some ideas in the folder `/cert2` in the repository as well. 
 
 ### Important Docker Commands
 
@@ -249,3 +279,5 @@ That will be result, even if you API is not handling properly the resources and 
 > Happy Demo/POC
 
 Please, any issue, please open it here in this GitHub repo. Thanks.
+
+
