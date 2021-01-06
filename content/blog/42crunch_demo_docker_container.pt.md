@@ -1,6 +1,6 @@
 +++
-title = "42Crunch: Demonstração em Ambiente Azure"
-description = "Este é uma demonstração do uso do 42Crunch no Ambiente Azure AKS (Kubernetes)"
+title = "42Crunch: APIFirewall as a simple Docker Image  "
+description = "In this post is demonstrated how to to run 42Crunch API Firewall as a simple Docker container image"
 author = "Edgar Silva"
 date = "2021-01-05"
 tags = ["api", "api-firewall",]
