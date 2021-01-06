@@ -200,9 +200,9 @@ disableLanguages        = []
 
   [Languages.pt]
     LanguageCode        = "pt"
-    LanguageName        = "Português"
-    title               = "Hugo Future Imperfect Slim em português"
-    description         = "Um tema do HTML5 UP, portado por Julio Pescadora e reduzido por Patrick Collins. Multilíngue por StatnMap. Feito com Hugo."
+    LanguageName        = "Edgar Silva - Blog & Website"
+    title               = ""
+    description         = "Notícias, Blog etc"
     weight              = 4
 
     [[Languages.pt.menu.main]]
