@@ -35,6 +35,7 @@ Esta previsão tem coerência pois todas as organizações, vem cada vez mais ex
 Seria interessante que fosse tão simples assim, mas na prática não é. Construídos com foco em aplicações, quando falamos de APIs, os mecanismos que devem ser tratados são muito diferentes. Infelizmente, existem ameaças que um WAF não consegue tratar, entre elas:
 
 
+
 |**Vulnerabilidade**| O que acontece? | Causas raíz | APIs afetadas | 
 |--|--|--|--|
 | Exposição de Dados Excessiva | Vazamento de Informações de APIs | Filtro de Dados de Clientes, API não trata entrada de dados problemáticas | [Uber](https://appsecure.security/blog/how-i-could-have-hacked-your-uber-account),  [PlentyOfFish](https://theappanalyst.com/plentyoffish.html),[Amazon Ring](https://gizmodo.com/ring-s-hidden-data-let-us-map-amazons-sprawling-home-su-1840312279) | 
@@ -43,7 +44,7 @@ Seria interessante que fosse tão simples assim, mas na prática não é. Constr
 | Exposição de nível de função quebrada | Endpoints administrativos que ficam abertos |A implementação combina a funcionalidade administrativa e de negócios | [Likud Voting App](https://www.zdnet.com/article/netanyahus-party-exposes-data-on-over-6-4-million-israelis/) |
 
 
-Pontos presentes na Top 10 OWASP API
+## Pontos presentes na Top 10 OWASP API
 
 Os pontos acima fazem parte da OWASP Top 10 riscos de segurança em APIs :
 
