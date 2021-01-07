@@ -34,52 +34,14 @@ Esta previsão tem coerência pois todas as organizações, vem cada vez mais ex
 
 Seria interessante que fosse tão simples assim, mas na prática não é. Construídos com foco em aplicações, quando falamos de APIs, os mecanismos que devem ser tratados são muito diferentes. Infelizmente, existem ameaças que um WAF não consegue tratar, entre elas:
 
-**Vulnerabilidade**
 
-**O que acontece?**
+|**Vulnerabilidade**| O que acontece? | Causas raíz | APIs afetadas | 
+|--|--|--|--|
+| Exposição de Dados Excessiva | Vazamento de Informações de APIs | Filtro de Dados de Clientes, API não trata entrada de dados problemáticas | [Uber](https://appsecure.security/blog/how-i-could-have-hacked-your-uber-account),  [PlentyOfFish](https://theappanalyst.com/plentyoffish.html),[Amazon Ring](https://gizmodo.com/ring-s-hidden-data-let-us-map-amazons-sprawling-home-su-1840312279) | 
+| Atribuição em Massa | O hacker pode passar informações extras que estão sendo usadas para atualizar dados de back-end | DTO global é usado para configurar dados. Mesmo DTO é usado para leitura e escrita| -   [Harbour registry](https://42crunch.com/stopping_harbor_registry_attack/)  (admin escalation), [New Relic](https://hackerone.com/reports/267781)  (Free APIKey access) |
+| Quebra de Autenticação | Tokens inválidos / expirados / hackeados Sem segurança aplicada Credenciais fracas Limitação de taxa ruim |Falta de validação de credenciais (JWT) de acordo com [BCP](https://datatracker.ietf.org/doc/rfc8725/). Ambientes de Dev/QA que permanecem abertos |[Siemens](https://cert-portal.siemens.com/productcert/pdf/ssa-451445.pdf), [SoundCloud](https://www.checkmarx.com/blog/checkmarx-research-soundcloud-api-security-advisory) |
+| Exposição de nível de função quebrada | Endpoints administrativos que ficam abertos |A implementação combina a funcionalidade administrativa e de negócios | [Likud Voting App](https://www.zdnet.com/article/netanyahus-party-exposes-data-on-over-6-4-million-israelis/) |
 
-**Causas raíz**
-
-**Exemplo de APIs afetadas**
-
-Exposição de Dados Excessiva
-
-Vazamento de Informações de APIs
-
-Filtro de Dados de ClientesAPI não trata entrada de dados problemáticas
-
-[Uber](https://appsecure.security/blog/how-i-could-have-hacked-your-uber-account)  
-[PlentyOfFish](https://theappanalyst.com/plentyoffish.html)  
-[Amazon Ring](https://gizmodo.com/ring-s-hidden-data-let-us-map-amazons-sprawling-home-su-1840312279)
-
-Atribuição em Massa
-
-  
-O hacker pode passar informações extras que estão sendo usadas para atualizar dados de back-end
-
-DTO global é usado para configurar dadosMesmo DTO é usado para leitura e escrita
-
-[Harbour registry](https://42crunch.com/stopping_harbor_registry_attack/)  (admin escalation)[New Relic](https://hackerone.com/reports/267781)  (Free APIKey access)
-
-Quebra de Autenticação
-
-  
-Tokens inválidos / expirados / hackeadosSem segurança aplicadaCredenciais fracasLimitação de taxa ruim
-
-Falta de validação de credenciais (JWT) de acordo com  [BCP](https://datatracker.ietf.org/doc/rfc8725/)Ambientes de Dev/QA que permanecem abertos
-
-[Siemens](https://cert-portal.siemens.com/productcert/pdf/ssa-451445.pdf)  
-[SoundCloud](https://www.checkmarx.com/blog/checkmarx-research-soundcloud-api-security-advisory)
-
-  
-Exposição de nível de função quebrada
-
-Endpoints administrativos que ficam abertos
-
-  
-A implementação combina a funcionalidade administrativa e de negócios
-
-[Likud Voting App](https://www.zdnet.com/article/netanyahus-party-exposes-data-on-over-6-4-million-israelis/)
 
 Pontos presentes na Top 10 OWASP API
 
