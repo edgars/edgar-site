@@ -40,7 +40,7 @@ disableLanguages        = []
     iOSColor            = "#ffffff"
 
   [params.header]
-    navbarTitle         = "BVCA"
+    navbarTitle         = "EDGAR SILVA"
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
