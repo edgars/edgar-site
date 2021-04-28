@@ -111,6 +111,12 @@ disableLanguages        = []
     url               = "/categories/"
     pre               = "<i class='fas fa-sitemap'></i>"
     weight            = 5
+  [[menu.main]]
+    name              = "Palestras"
+    identifier        = "palestras"
+    url               = "/palestras/"
+    pre               = "<i class='fas fa-sitemap'></i>"
+    weight            = 7   
 
 [Languages]
 
