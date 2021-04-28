@@ -239,6 +239,13 @@ disableLanguages        = []
       pre               = "<i class='fas fa-sitemap'></i>"
       weight            = 5
 
+    [[Languages.pt.menu.main]]
+      name              = "Palestras"
+      identifier        = "palestras"
+      url               = "/palestras/"
+      pre               = "<i class='fas fa-sitemap'></i>"
+      weight            = 7
+
 
 
   [Languages.de]
