@@ -237,14 +237,14 @@ disableLanguages        = []
       identifier        = "categories"
       url               = "/categories/"
       pre               = "<i class='fas fa-sitemap'></i>"
-      weight            = 5
+      weight            = 7
 
     [[Languages.pt.menu.main]]
       name              = "Palestras"
       identifier        = "palestras"
       url               = "/palestras/"
-      pre               = "<i class='fas fa-sitemap'></i>"
-      weight            = 7
+      pre               = "<i class='fas fa-file-video'></i>"
+      weight            = 5
 
 
 
