@@ -84,7 +84,9 @@ Além disto, se você quiser entender mais de você, invista na sua saúde menta
 
 Não esqueça: A Vida não têm atalhos, e instantâneo é Miojo! Sucesso, notoriedade, respeito são consequências de trabalho árduo, e se você um dia for alguém "foda", não esqueça suas raízes, suas bases, as pessoas que te ajudaram sem pedir nada em troca, e tente retribuir isto, ajude outra pessoas e faça a roda do universo do bem girar!
 
-Para os mentores que vão odiar esse texto: "O cemitério dos derrotados é silencioso", se quiserem um pouco mais de respeito... Comecem a apresentar os casos que deram errado, posicionem as expectativas, e se quiserem fazer algo de valor, joguem num sistema que não tenha sido construído por vocês.
+Infelizmente, todos querem a fórmula secreta para ficar em forma em 1 mês, para ficarem ricos sem se esforçar, para serem reconhecidos por nunca terem feito nada relevante, mas se nunca te falaram isto, eu falo agora (e de graça): Não existe almoço grátis! Ou seja, se você não fizer sua parte... A mágica nunca acontecerá.
+
+Para os mentores que vão odiar esse texto: "O cemitério dos derrotados é silencioso", se quiserem um pouco mais de respeito... Comecem a apresentar os casos que deram errado, posicionem as expectativas, e se quiserem fazer algo de valor, joguem num sistema que não tenha sido construído por vocês, e seria muito legal, se vocês pudessem retribuir de alguma forma, seja para sociedade, para projetos sociais.... Mas vai ser difícil vocês largaram esse mamatinha não é? Afinal, vocês tem o negócio perfeito!
 
 Esse vídeo aqui pode ser também interessante de você assistir:
 
