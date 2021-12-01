@@ -12,7 +12,6 @@ Reativando meu site pessoal, perdi muito conteúdo de um site que tinha desde 20
 ## Tecnologia
    
 
-Atuo no mercado de tecnologia desde 1997, onde comecei a entregar diversos projetos como autonômo para empresas de pequeno e médio porte, além de ministrar aulas de programação. Nos últimos anos passei por diversas empresas de tecnologia, passando por posições técnicas e liderança, e na maioria deles me diverti e fiz grandes amizades. 
-
+Atuo no mercado de tecnologia desde 1997, onde comecei a entregar diversos projetos como autonômo para empresas de pequeno e médio porte, além de ministrar aulas de programação. Nos últimos anos passei por diversas empresas de tecnologia, passando por posições técnicas e liderança, e na maioria deles me diverti e fiz grandes amizades, há pessoas que dizem que foi sorte a minha passagem por algumas empresas fantástica, eu posso dizer que foi muito esforço, paciência especialmente quando saí das posições mais técnicas, e sempre tentando desafiar a mim e as pessoas que trabalharam ao meu redor. 
 
 
